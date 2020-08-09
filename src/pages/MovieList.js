@@ -253,7 +253,7 @@ function MovieList() {
           />
         </div>
         <div className="form-group">
-          <label>Masukkan Durasi Film</label>
+          <label>Masukkan Deskripsi Film</label>
           <textarea
             name="description"
             value={input.description}
