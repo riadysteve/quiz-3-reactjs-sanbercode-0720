@@ -1,0 +1,60 @@
+div.movie-list {
+  padding: 20px;
+  margin: 80px auto;
+  background-color: #fff;
+  /* width: 90%; */
+}
+
+.movie-list h1 {
+  margin-bottom: 10px;
+}
+
+table {
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+thead {
+  background-color: lightgray;
+}
+
+th:not(:first-child) {
+  padding: 5px 40px;
+}
+
+th:first-child {
+  padding: 5px 150px;
+}
+
+tbody {
+  text-align: left;
+  background-color: salmon;
+  padding: 5px 0;
+}
+
+form,
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+form div {
+  align-items: stretch;
+  margin-top: 10px;
+}
+
+form div label {
+  align-self: flex-start;
+}
+
+button.submit {
+  margin-top: 20px;
+  align-self: flex-start;
+}
+
+button.del {
+  background-color: red;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
